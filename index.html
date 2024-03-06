@@ -24,10 +24,10 @@
 </head>
 
 <body>
-  <!-- main header -->
-  <!-- main header -->
-  <!-- <header class="py-2">
-    <nav class="navbar navbar-expand-lg">
+
+
+  <header class="py-3">
+    <nav class="navbar navbar-expand-lg bg-transparent p-0">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -86,70 +86,7 @@
               <a href="about-us.html" class="nav-link">Contact Us</a>
             </li>
           </ul>
-        </div>
-      </div>
-    </nav>
-  </header> -->
-  <!-- header end -->
 
-  <header class="py-3">
-    <nav class="navbar navbar-expand-lg bg-transparent p-0">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-           <li class="nav-item">
-             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-           </li>
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               About Us
-             </a>
-             <ul class="dropdown-menu">
-               <li><a class="dropdown-item" href="#">About</a></li>
-               <li><a class="dropdown-item" href="#">Team</a></li>
-               <li><a class="dropdown-item" href="#">Team Deails</a></li>
-               <li><a class="dropdown-item" href="#">FAQs</a></li>
-               <li><a class="dropdown-item" href="#">Pricing Plans</a></li>
-               <li><a class="dropdown-item" href="#">Error</a></li>
-               <li><a class="dropdown-item" href="#">Team</a></li>
-             </ul>
-           </li>
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Services
-             </a>
-             <ul class="dropdown-menu">
-               <li><a class="dropdown-item" href="#">Services 1</a></li>
-               <li><a class="dropdown-item" href="#">Services 2</a></li>
-               <li><a class="dropdown-item" href="#">Services 3</a></li>
-               <li><a class="dropdown-item" href="#">Services 4</a></li>
-             </ul>
-           </li>
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Portfolio
-             </a>
-             <ul class="dropdown-menu">
-               <li><a class="dropdown-item" href="#">Portfolio 1</a></li>
-               <li><a class="dropdown-item" href="#">Portfolio 2</a></li>
-               <li><a class="dropdown-item" href="#">Portfolio 3</a></li>
-               <li><a class="dropdown-item" href="#">Portfolio 4</a></li>
-             </ul>
-           </li>
-
-           <li class="nav-item">
-             <a href="about-us.html" class="nav-link">Blog</a>
-           </li>
-           <li class="nav-item">
-             <a href="about-us.html" class="nav-link">Contact Us</a>
-           </li>
-         </ul>
-       
 
         </div>
       </div>
@@ -240,13 +177,158 @@
   </section>
   <!-- slider-end -->
 
-  <!-- marquee start-->
-  <section class="marquee container h5 pt-3 ">
-    <marquee onmouseover="stop()" onmouseout="start()">Welcome to Alamiah Building Company K.S.C.C., a First Grade
-      Kuwaiti
-      Construction & Infrastructure company in Kuwait.</marquee>
+  <!--advance search area start -->
+  <section class="advance-search-item py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter Your Keyword" aria-label="Username"
+              aria-describedby="basic-addon1" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 col-sm-12">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Property Type</option>
+            <option value="1">Family House</option>
+            <option value="2">Apartment</option>
+            <option value="3">Office</option>
+          </select>
+        </div>
+        <div class="col-lg-2 col-md-12 col-sm-12">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Location</option>
+            <option value="1">Dhaka</option>
+            <option value="2">Rajshahi</option>
+            <option value="3">Khulna</option>
+            <option value="3">Sylhet</option>
+            <option value="3">Chittagong</option>
+          </select>
+        </div>
+        <div class="col-lg-2 col-md-12 col-sm-12">
+          <button type="button" class="btn btn-light w-100 collapsed" data-bs-toggle="collapse" href="#collapseExample"
+            role="button" aria-expanded="false" aria-controls="collapseExample">
+            Advance Search <i class="fa-solid fa-ellipsis-vertical ps-1"></i>
+          </button>
+
+        </div>
+        <div class="col-lg-2 col-md-12 col-sm-12">
+          <button type="button" class="btn btn-warning w-100">Search</button>
+        </div>
+      </div>
+      <!-- collapse item -->
+      <div class="collapse advance-search" id="collapseExample">
+        <div class="card card-body">
+          <div class="row">
+            <div class="col-md-4">
+
+              <div class="input-group mb-3">
+                <span class="input-group-text border-end-0 bg-transparent p-0 ps-2" id="basic-addon1"><i
+                    class="fa-solid fa-house-chimney"></i></span>
+                <select class="form-select border-start-0 ps-1" aria-label="Default select example"
+                  aria-describedby="basic-addon1">
+                  <option selected>Property Status</option>
+                  <option value="1">For Sale</option>
+                  <option value="2">For Rent</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4">
+
+              <div class="input-group mb-3">
+                <span class="input-group-text border-end-0 bg-transparent p-0 ps-2" id="basic-addon2"><i
+                    class="fa-solid fa-bed"></i></span>
+                <select class="form-select border-start-0 ps-1" aria-label="Default select example"
+                  aria-describedby="basic-addon2">
+                  <option selected>Bedrooms</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="3">4</option>
+                  <option value="3">5</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="input-group mb-3">
+                <span class="input-group-text border-end-0 bg-transparent p-0 ps-2" id="basic-addon3"><i
+                    class="fa-solid fa-bath"></i></span>
+                <select class="form-select border-start-0 ps-1" aria-label="Default select example"
+                  aria-describedby="basic-addon3">
+                  <option selected>Bathrooms</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="3">4</option>
+                  <option value="3">5</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <!-- area range -->
+              <div class="container mt-5">
+                <h5 class="text-center">Area Size</h5>
+                <div class="d-flex justify-content-between">
+                </div>
+                <input type="range" class="form-range" id="areaRange" min="0" max="1300" step="1" value="0">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p>0 sq ft</p>
+                  </div>
+                  <div class="price-display">Price: <span id="areaValue">0</span> sq ft</div>
+                </div>
+              </div>
+              <!-- price range -->
+              <div class="container mt-5">
+                <h5 class="text-center">Price Range</h5>
+                <div class="d-flex justify-content-between">
+                </div>
+                <input type="range" class="form-range" id="priceRange" min="0" max="600000" step="1" value="0">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p>$0</p>
+                  </div>
+                  <div class="price-display">Price: $<span id="priceValue">0</span></div>
+                </div>
+              </div>
+            </div>
+            <!-- checkbox -->
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Air Conditioning
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Swimming Pool
+                </label>
+              </div>
+            </div>
+            <!-- checkbox -->
+            <div class="col-lg-3 col-md-6 col-sm-6 mt-5">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                <label class="form-check-label" for="flexCheckDefault2">
+                  Wi Fi
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" checked>
+                <label class="form-check-label" for="flexCheckChecked2">
+                  TV Cable
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-  <!-- marquee end-->
+
+  <!-- advance search end -->
 
   <section class="sector pt-5">
     <div class="container">
@@ -254,7 +336,7 @@
         <div class="col-md-4 pb-5">
           <div class="card border-0 p-3 bg-white">
             <h5 class="pb-2">Construction Sector</h5>
-            <img class="card-img-top" src="assets/img/product (5).jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/img/sector-img-1.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Special Forces Fac...</h5>
               <p class="card-text">Contract No.: SPA/30Project T...</p>
@@ -265,7 +347,7 @@
         <div class="col-md-4 pb-5">
           <div class="card border-0 p-3 bg-white">
             <h5 class="pb-2">Infra & Roads Sector</h5>
-            <img class="card-img-top" src="assets/img/product (6).jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/img/sector-img-4.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Hawalli Roads A...</h5>
               <p class="card-text">The project comprises of the general maintenance works...</p>
@@ -277,7 +359,7 @@
 
           <div class="card border-0 p-3 bg-white">
             <h5 class="pb-2">Prefab Factories Sector</h5>
-            <img class="card-img-top" src="assets/img/product (5).jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/img/sector-img-3.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Araya Centre...</h5>
               <p class="card-text">The Arraya Center comprises of a retail and multi-stor...</p>
@@ -668,6 +750,21 @@
       element.addEventListener("mouseout", function () {
         dropdownItem.classList.remove("show");
       });
+    });
+  </script>
+
+  <script>
+    const areaRange = document.getElementById('areaRange');
+    const areaValue = document.getElementById('areaValue');
+    const priceRange = document.getElementById('priceRange');
+    const priceValue = document.getElementById('priceValue');
+    areaValue.textContent = areaRange.value;
+    priceValue.textContent = priceRange.value;
+    areaRange.addEventListener('input', () => {
+      areaValue.textContent = areaRange.value;
+    });
+    priceRange.addEventListener('input', () => {
+      priceValue.textContent = priceRange.value;
     });
   </script>
 

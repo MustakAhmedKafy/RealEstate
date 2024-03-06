@@ -1,5 +1,5 @@
 // $primary: #f89d1e;
-$primary: #1D1562;
+$primary: #ff385c;
 $secondary: #df8507;
 $white: #ffffff;
 $h-text-color: #404040;
@@ -72,9 +72,7 @@ header {
     border-radius: 0;
     width: 200px;
     border-top: 3px solid $secondary;
-    // margin-top: 20px !important;
-    // position: static;
-    // top: 50px;
+    
   }
 
 
@@ -317,6 +315,47 @@ header {
   // .slick-arrow {
   //   display: none !important;
   // }
+}
+
+// advance search
+.advance-search-item {
+
+  /* advance-search */
+  .search-item select:focus {
+    box-shadow: none;
+    border-color: #dee2e6;
+  }
+
+  .search-item .form-control:focus {
+    box-shadow: none;
+    border-color: #dee2e6;
+  }
+
+  .advance-search .fa-solid {
+    color: $primary;
+    font-size: 14px;
+  }
+
+  .form-range::-webkit-slider-thumb {
+    background-color: $primary;
+    box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.25);
+    /* Adjust the shadow color and size as needed */
+  }
+
+  /* Remove default focus styling for Mozilla Firefox */
+  .form-range::-moz-focus-inner {
+    border: 0;
+  }
+
+  .form-range::-moz-range-thumb {
+    background-color: $primary;
+    box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.25);
+  }
+
+  .form-range::-ms-thumb {
+    background-color: $primary;
+    box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.25);
+  }
 }
 
 .sector {

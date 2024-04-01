@@ -337,6 +337,7 @@ header {
   .advance-search .fa-solid {
     color: $primary;
     font-size: 20px;
+    margin-right: 5px;
   }
 
   .form-range::-webkit-slider-thumb {
@@ -409,6 +410,7 @@ header {
     font-size: 30px;
     transition: 0.8s;
     color: $primary;
+
   }
 
   .icon {

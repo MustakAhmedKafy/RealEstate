@@ -23,7 +23,7 @@
 
 /* construction baner start*/
 .construction {
-  background: rgba(0, 0, 0, 0) url("assets/img/slider\ \(2\).jpg") repeat scroll
+  background: rgba(0, 0, 0, 0) url("assets/img/slider2.jpg") repeat scroll
     0 0 / cover;
   height: 70vh;
   position: relative;
@@ -54,7 +54,7 @@
 
 .consultation {
   background: rgba(0, 0, 0, 0)
-    url("assets/img/slider\ \(1\).jpg")
+    url("assets/img/slider1.jpg")
     repeat scroll 0 0 / cover;
   height: 100%;
   background-attachment: fixed;

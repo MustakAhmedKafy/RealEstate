@@ -1,17 +1,21 @@
 @import "variable";
 @import "input";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
+/* title hr start */
 
+body {
+  font-family: "Montserrat",
+    sans-serif;
+}
 
-
-// title hr start
 .title {
   position: relative;
 }
 
 h2 {
-  text-transform: uppercase;
+  text-transform:capitalize;
 }
 
 .title h2:before {
@@ -198,9 +202,9 @@ header {
   }
 
   .slider-content-2 h1 {
-    font-size: 72px;
-
-    line-height: 85px;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
   }
 
   .slider-active .slick-dots {
@@ -644,10 +648,12 @@ footer {
   p {
     margin: 0;
     padding-bottom: 8px;
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 500;
   }
 
-  .fa-angle-right, svg  {
+  .fa-angle-right,
+  svg {
     color: $primary;
     width: 12px;
   }
@@ -798,5 +804,20 @@ footer {
 
   .testimonial-text {
     color: #555;
+  }
+}
+
+
+
+// media query
+
+
+
+
+@media (max-width: 767.98px) {
+  .banner-slider .slider-content-2 h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
   }
 }
